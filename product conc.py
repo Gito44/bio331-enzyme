@@ -12,7 +12,7 @@ def determine_product(data):
     product_conc = []
     for item in data:
         conc = (item - 0.009) / 243.966
-        volume = conc * 1000
+        volume = conc * 3000
         product_conc.append(volume)
     print(product_conc)
     return
